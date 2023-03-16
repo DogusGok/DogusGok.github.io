@@ -1,16 +1,168 @@
 body {
-  background-color: #eaf6f6;
+  text-align: center;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: lightgray;
-  border-width: 5px;
-  width: 4%;
+.navbar {
+  height: 60px;
+  background-color: #e4f9f5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-logo {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: 40px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+}
+.middle-container {
+  margin: 75px 250px 0 250px;
+}
+.bottom-container {
+  margin: 100px auto 0 auto;
+  background-color: #66bfbf;
+  padding: 10px;
+}
+.hello-row {
+  width: 50%;
+  margin: auto;
+}
+.title-parahraph {
+  margin: 100px auto;
+  display: table;
+}
+a:hover {
+  color: white;
+}
+
+.btn {
+  text-align: center;
+  margin: 10px;
+  background: #66bfbf;
+
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.btn:hover {
+  background: #40514e;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
 h2 {
   color: #66bfbf;
+  font-weight: bold;
+  font-size: 2rem;
 }
-h1 {
-  color: #66bfbf;
+h3 {
+  color: #11999e;
+  font-weight: bolder;
+}
+a {
+  color: #40514e;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px;
+  padding-top: 4px;
+}
+
+.top-title {
+  padding: 100px;
+  display: inline-block;
+}
+.clouds {
+  width: 128px;
+  position: relative;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.java-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.python-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+#left-cloud {
+  top: 50px;
+  right: 50px;
+}
+#right-cloud {
+  top: -80px;
+  left: 50px;
+}
+#mountain-image {
+  margin: 0 auto;
+  display: block;
+}
+#profile-img {
+  width: 250px;
+  margin-top: 50px;
+}
+hr {
+  margin: 150px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #01212e;
+  border-width: 8px;
+  width: 5%;
+}
+.email-img {
+  width: 25px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  bottom: 3px;
 }
