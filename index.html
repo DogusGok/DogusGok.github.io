@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <script src="./javascript/script.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -100,14 +101,14 @@
       <hr />
       <div class="contact-me">
         <h2>Get In Touch</h2>
-        <h3>If you want contact with me please click button.</h3>
-        <div class="btn-row">
-          <a class="btn" href="mailto:dgsgk11@email.com">
-            <img class="email-img" src="images/email.png" alt="" /> CONTACT
-            ME</a
-          >
-        </div>
+        <h3>If you want contact with me please add comment then press button.</h3>
+        <input class="input" placeholder="Yorum ekleyin..." type="text" id="input" name="input"><br><br>
+    <button class="btn" onclick="addComment()">Yorum Ekle</button>
+    <button class="btn" onclick="showAllComments()">Tüm Yorumları Göster</button>
       </div>
+      
+    
+  </body>
     </div>
 
     <div class="bottom-container">
@@ -125,3 +126,5 @@
     </div>
   </body>
 </html>
+
+

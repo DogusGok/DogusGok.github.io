@@ -166,3 +166,9 @@ hr {
   position: relative;
   bottom: 3px;
 }
+.input {
+  width: 200px;
+  height: 35px;
+  border-width: 2px;
+  border-radius: 10px;
+}
