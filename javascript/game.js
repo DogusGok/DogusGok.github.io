@@ -23,7 +23,7 @@ function addFruit() {
     count++;
     score.textContent = `Skor: ${count}`;
     if (count === 20) {
-      alert("Tebrikler, kazandınız!");
+      alert("Tebrikler, kazandiniz!");
     }
   });
 }
